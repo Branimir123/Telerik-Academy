@@ -1,0 +1,6 @@
+C:\Users\Brani\Desktop\HomeworkOOP2\HomeworkOOP\HomeworkOOP\bin\Debug\HomeworkOOP.exe.config
+C:\Users\Brani\Desktop\HomeworkOOP2\HomeworkOOP\HomeworkOOP\bin\Debug\HomeworkOOP.exe
+C:\Users\Brani\Desktop\HomeworkOOP2\HomeworkOOP\HomeworkOOP\bin\Debug\HomeworkOOP.pdb
+C:\Users\Brani\Desktop\HomeworkOOP2\HomeworkOOP\HomeworkOOP\obj\Debug\HomeworkOOPTask1.csprojResolveAssemblyReference.cache
+C:\Users\Brani\Desktop\HomeworkOOP2\HomeworkOOP\HomeworkOOP\obj\Debug\HomeworkOOP.exe
+C:\Users\Brani\Desktop\HomeworkOOP2\HomeworkOOP\HomeworkOOP\obj\Debug\HomeworkOOP.pdb
