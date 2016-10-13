@@ -31,7 +31,7 @@
         let imgElement = document.createElement("img"),
             imgSrc = "http://maps.googleapis.com/maps/api/staticmap?center=" +
             coordsObj.lat + "," +
-            coordsObj.long + "&zoom=17&size=500x500&sensor=false";
+            coordsObj.long + "&zoom=13&size=500x500&sensor=false";
 
         imgElement.setAttribute("src", imgSrc);
 
