@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<catalog xmlns:catalog="urn:catalog">
+	<album id="1">
+		<name>
+			Black
+		</name>
+		<artist>
+			Metallica
+		</artist>
+		<year>
+			1989
+		</year>
+		<producer>
+			Good Music Corp.
+		</producer>
+		<price>
+			29.99
+		</price>
+		<songs>
+			<song>
+				<title>
+					Fade to black
+				</title>
+				<duration>
+					8:23
+				</duration>
+			</song>
+			<song>
+				<title>
+					Unforgiven
+				</title>
+				<duration>
+					9:34
+				</duration>
+			</song>
+		</songs>
+	</album>
+	<album id="2">
+		<name>
+			Good album
+		</name>
+		<artist>
+			Good artist
+		</artist>
+		<year>
+			2004
+		</year>
+		<producer>
+			Not planeta
+		</producer>
+		<price>
+			15.99
+		</price>
+		<songs>
+			<song>
+				<title>
+					Good song
+				</title>
+				<duration>
+					5:45
+				</duration>
+			</song>
+			<song>
+				<title>
+					Another good song
+				</title>
+				<duration>
+					4:45
+				</duration>
+			</song>
+		</songs>
+	</album>
+	<album id="3">
+		<name>
+			Bad album
+		</name>
+		<artist>
+			Metallica
+		</artist>
+		<year>
+			2016
+		</year>
+		<producer>
+			Planeta
+		</producer>
+		<price>
+			34.99
+		</price>
+		<songs>
+			<song>
+				<title>
+					Bad song
+				</title>
+				<duration>
+					3:44
+				</duration>
+			</song>
+			<song>
+				<title>
+					Another bad song
+				</title>
+				<duration>
+					3:23
+				</duration>
+			</song>
+		</songs>
+	</album>
+	<album id="4">
+		<name>
+			dfggf
+		</name>
+		<artist>
+			Bad Artist
+		</artist>
+		<year>
+			2016
+		</year>
+		<producer>
+			Planeta
+		</producer>
+		<price>
+			34.99
+		</price>
+		<songs>
+			<song>
+				<title>
+					Bad song
+				</title>
+				<duration>
+					3:44
+				</duration>
+			</song>
+			<song>
+				<title>
+					Another bad song
+				</title>
+				<duration>
+					3:23
+				</duration>
+			</song>
+		</songs>
+	</album>
+</catalog>

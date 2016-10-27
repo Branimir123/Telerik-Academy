@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<catalog xmlns:catalog="urn:catalog">
+  <album id="2">
+    <name>
+			Good album
+		</name>
+    <artist>
+			Good artist
+		</artist>
+    <year>
+			2004
+		</year>
+    <producer>
+			Not planeta
+		</producer>
+    <price>
+			15.99
+		</price>
+    <songs>
+      <song>
+        <title>
+					Good song
+				</title>
+        <duration>
+					5:45
+				</duration>
+      </song>
+      <song>
+        <title>
+					Another good song
+				</title>
+        <duration>
+					4:45
+				</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

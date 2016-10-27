@@ -1,4 +1,0 @@
-C:\Users\Brani\Desktop\HW_magadisho_Principi-na-OOP-chast-1_2016-06-18_18-22\Homework04\Problem3\bin\Debug\Problem3.dll
-C:\Users\Brani\Desktop\HW_magadisho_Principi-na-OOP-chast-1_2016-06-18_18-22\Homework04\Problem3\bin\Debug\Problem3.pdb
-C:\Users\Brani\Desktop\HW_magadisho_Principi-na-OOP-chast-1_2016-06-18_18-22\Homework04\Problem3\obj\Debug\Problem3.dll
-C:\Users\Brani\Desktop\HW_magadisho_Principi-na-OOP-chast-1_2016-06-18_18-22\Homework04\Problem3\obj\Debug\Problem3.pdb

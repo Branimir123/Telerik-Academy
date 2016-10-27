@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<update-catalog name="update catalog">
+	<album>
+		<name>Black</name>
+		<artist>Metallica</artist>
+		<album>
+			<name>Good album</name>
+			<artist>Good artist</artist>
+			<album>
+				<name>Bad album</name>
+				<artist>Metallica</artist>
+				<album>
+					<name>dfggf</name>
+					<artist>Bad Artist</artist>
+				</album>
+			</album>
+		</album>
+	</album>
+</update-catalog>

@@ -1,0 +1,13 @@
+#heading{
+    width: 100px;
+}
+#text{
+    width:230px;
+}
+#heading{
+    font-size: 25px;
+    text-align: center;
+}
+#table-letters th,td{
+    padding: 5px;
+}
