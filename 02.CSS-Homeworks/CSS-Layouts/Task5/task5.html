@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" class="">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 5</title>
+	<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="navigation">
+			<ul class="menu">
+				<li><a href=""> Apple</a></li>
+				<li><a href=""> Toshiba</a></li>
+				<li><a href=""> Lenovo</a></li>
+				<li><a href=""> Dell</a></li>
+				<li><a href=""> Asus</a></li>
+				<li><a href=""> Hacer</a></li>
+				<li><a href=""> HP</a></li>
+			</ul>
+		</div>
+		
+		<div class="products">
+			<div class="product-box">
+				<div class="product-title">Apple MacBook Air</div>
+				<img src="pictures/product.png" alt="product" class="product-picture"/>
+				<div class="text">
+					<span>64GB SSD</span>
+					<span>2GB DDR</span>
+					<span>1300 USD</span>
+					<span>Intel Core i5</span>
+				</div>
+			</div>
+			<div class="product-box">
+				<div class="product-title">Apple MacBook Air</div>
+				<img src="pictures/product.png" alt="product" class="product-picture"/>
+				<div class="text">
+					<span>64GB SSD</span>
+					<span>2GB DDR</span>
+					<span>1300 USD</span>
+					<span>Intel Core i5</span>
+				</div>
+			</div>
+			<div class="product-box">
+				<div class="product-title">Apple MacBook Air</div>
+				<img src="pictures/product.png" alt="product" class="product-picture"/>
+				<div class="text">
+					<span>64GB SSD</span>
+					<span>2GB DDR</span>
+					<span>1300 USD</span>
+					<span>Intel Core i5</span>
+				</div>
+			</div>
+			<div class="product-box">
+				<div class="product-title">Apple MacBook Air</div>
+				<img src="pictures/product.png" alt="product" class="product-picture"/>
+				<div class="text">
+					<span>64GB SSD</span>
+					<span>2GB DDR</span>
+					<span>1300 USD</span>
+					<span>Intel Core i5</span>
+				</div>
+			</div>
+			<div class="product-box">
+				<div class="product-title">Apple MacBook Air</div>
+				<img src="pictures/product.png" alt="product" class="product-picture"/>
+				<div class="text">
+					<span>64GB SSD</span>
+					<span>2GB DDR</span>
+					<span>1300 USD</span>
+					<span>Intel Core i5</span>
+				</div>
+			</div>
+			<div class="product-box">
+				<div class="product-title">Apple MacBook Air</div>
+				<img src="pictures/product.png" alt="product" class="product-picture"/>
+				<div class="text">
+					<span>64GB SSD</span>
+					<span>2GB DDR</span>
+					<span>1300 USD</span>
+					<span>Intel Core i5</span>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="search-box">
+			<div><span>Min price: </span> <span id="range"> 1500 USD</span><input type="range" class="product-search" min="0" max="3000" onchange="showValue(this.value)"></div>
+			<div><span>Max price:</span><input type="range" class="product-search" min="0" max="3000"  ></div>
+			<div><span>Min ram:</span><input type="range" class="product-search" min="0" max="32" ></div>
+			<div><span>Max ram:</span><input type="range" class="product-search" min="0" max="32" ></div>
+		</div>
+	
+	<script type="text/javascript">
+	
+		function showValue(newValue)
+		{
+			document.getElementById("range").innerHTML=newValue + " USD";
+		}
+	</script>
+		
+	
+	
+	
+	</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+ul.menu{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+ul.menu li{
+	display: none;
+}
+.big-menu:hover > span.menu-title{
+	text-decoration: underline;
+}
+
+.big-menu:hover  .menu li{
+	display: block;
+	color: grey;
+	text-decoration: none;
+}
+

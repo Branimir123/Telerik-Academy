@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F426309-B6F6-4F2A-8507-6B41B46C6D0B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>High.Quality.Code.Task1.Events</RootNamespace>
+    <AssemblyName>High.Quality.Code.Task1.Events</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Event.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="PowerCollections\Algorithms.cs" />
+    <Compile Include="PowerCollections\AssemblyInfo.cs" />
+    <Compile Include="PowerCollections\Bag.cs" />
+    <Compile Include="PowerCollections\BigList.cs" />
+    <Compile Include="PowerCollections\CollectionBase.cs" />
+    <Compile Include="PowerCollections\Comparers.cs" />
+    <Compile Include="PowerCollections\Deque.cs" />
+    <Compile Include="PowerCollections\DictionaryBase.cs" />
+    <Compile Include="PowerCollections\Hash.cs" />
+    <Compile Include="PowerCollections\ListBase.cs" />
+    <Compile Include="PowerCollections\MultiDictionary.cs" />
+    <Compile Include="PowerCollections\MultiDictionaryBase.cs" />
+    <Compile Include="PowerCollections\OrderedBag.cs" />
+    <Compile Include="PowerCollections\OrderedDictionary.cs" />
+    <Compile Include="PowerCollections\OrderedMultiDictionary.cs" />
+    <Compile Include="PowerCollections\OrderedSet.cs" />
+    <Compile Include="PowerCollections\Pair.cs" />
+    <Compile Include="PowerCollections\ReadOnlyCollectionBase.cs" />
+    <Compile Include="PowerCollections\ReadOnlyDictionaryBase.cs" />
+    <Compile Include="PowerCollections\ReadOnlyListBase.cs" />
+    <Compile Include="PowerCollections\ReadOnlyMultiDictionaryBase.cs" />
+    <Compile Include="PowerCollections\RedBlack.cs" />
+    <Compile Include="PowerCollections\Set.cs" />
+    <Compile Include="PowerCollections\Strings.cs" />
+    <Compile Include="PowerCollections\Triple.cs" />
+    <Compile Include="PowerCollections\Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
